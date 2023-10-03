@@ -647,7 +647,9 @@ def run(**kwargs):
 import datetime
 if __name__ == '__main__':
     starttime = datetime.datetime.now()
+    print(f"开始训练时间：{starttime}")
     opt = parse_opt()
     main(opt)
     endtime = datetime.datetime.now()
+    print(f"结束训练时间：{endtime}")
     print(f"训练时间：{endtime - starttime}")

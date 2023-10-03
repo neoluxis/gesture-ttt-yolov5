@@ -646,6 +646,5 @@ def run(**kwargs):
 
 
 if __name__ == '__main__':
-    print(f"开始训练时间：{starttime}")
     opt = parse_opt()
     main(opt)

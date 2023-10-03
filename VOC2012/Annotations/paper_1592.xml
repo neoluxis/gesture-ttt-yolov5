@@ -1,0 +1,26 @@
+<annotation>
+	<folder>data</folder>
+	<filename>paper_1592.jpg</filename>
+	<path>/home/neolux/Documents/pytorch/gesture/VOC2012/data/paper_1592.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>paper</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>172</xmin>
+			<ymin>69</ymin>
+			<xmax>449</xmax>
+			<ymax>413</ymax>
+		</bndbox>
+	</object>
+</annotation>

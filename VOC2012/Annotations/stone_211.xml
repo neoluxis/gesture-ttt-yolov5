@@ -1,0 +1,26 @@
+<annotation>
+	<folder>data</folder>
+	<filename>stone_211.jpg</filename>
+	<path>/home/neolux/Documents/pytorch/gesture/VOC2012/data/stone_211.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>242</xmin>
+			<ymin>249</ymin>
+			<xmax>404</xmax>
+			<ymax>427</ymax>
+		</bndbox>
+	</object>
+</annotation>

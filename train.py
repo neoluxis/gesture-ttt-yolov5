@@ -644,7 +644,10 @@ def run(**kwargs):
     main(opt)
     return opt
 
-
+import datetime
 if __name__ == '__main__':
+    starttime = datetime.datetime.now()
     opt = parse_opt()
     main(opt)
+    endtime = datetime.datetime.now()
+    print(f"训练时间：{endtime - starttime}")

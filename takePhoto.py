@@ -47,8 +47,8 @@ def get_sets():
                         type=str, help='output txt label path')
     opt = parser.parse_args()
 
-    trainval_percent = 0.98
-    train_percent = 0.20
+    trainval_percent = 0.80
+    train_percent = 1.0
     xmlfilepath = opt.xml_path
     txtsavepath = opt.txt_path
     total_xml = os.listdir(xmlfilepath)

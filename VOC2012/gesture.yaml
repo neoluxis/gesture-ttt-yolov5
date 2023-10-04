@@ -11,13 +11,13 @@
 path: ./VOC2012  # dataset root dir
 train: images  # train images (relative to 'path') 128 images
 val: images  # val images (relative to 'path') 128 images
-test:  images # test images (optional)
+test: images # test images (optional)
 
 # Classes
 names:
-  0: paper
-  1: stone
-  2: scissor
+  0: stone
+  1: scissor
+  2: paper
 
 
 # Download script/URL (optional)
